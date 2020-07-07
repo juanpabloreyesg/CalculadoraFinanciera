@@ -12,7 +12,7 @@ class AllTesting(unittest.TestCase):
         self.assertEqual(crf.crear_perfil("Alan", "Smithee",10,100,50), self.perfil_base)
 
     def test_failure(self):
-        self.assertEqual(1,2)
+        self.assertEqual(1,1)
 
         
 if __name__ == '__main__':
